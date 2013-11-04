@@ -2,7 +2,7 @@
 $nombre = $_POST['nombre'];
 $email = $_POST['email'];
 $mensaje = $_POST['mensaje'];
-$para = 'ksagredo@proyectoinformatico.cl';
+$para = 'energiasua@gmail.com';
 $titulo = 'ASUNTO DEL MENSAJE';
 $header = 'From: ' . $email;
 $msjCorreo = "Nombre: $nombre\n E-Mail: $email\n Mensaje:\n $mensaje";

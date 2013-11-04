@@ -68,6 +68,30 @@ text-align: center;
     width: 100%;
 }
 
+#email 
+{
+    font-family: Arial;
+    font-size: 16px;
+    color: black;
+}
+
+
+#nombre
+{
+    font-family: Arial;
+    font-size: 16px;
+    color: black;
+}
+
+
+
+#mensaje
+{
+    font-family: Arial;
+    font-size: 16px;
+    color: black;
+}
+
 nav #contacto 
 {
     float: right;
