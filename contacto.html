@@ -1,0 +1,46 @@
+<!DOCTYPE html>     
+<!-- El encabezado !DOCTYPE html especifica que se trata de un documento HTML5 -->
+<html>
+ <head>
+ <meta charset = "utf-8"/>
+  <link type="text/css" rel="stylesheet" href="formulario.css"> 
+   <!-- La linea de arriba es para importar estilos CSS a nuestro formulario -->
+  <title>Formulario de contacto</title>
+  <link rel="stylesheet" href="normalize.css">
+ </head>
+ <body>
+  <header><div id="header"><img src="imagenes/HEADER.jpg"></div></header>
+  <nav>
+    <ul>
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="pmi.html">PMI</a></li>
+    <li><a href="academias.html">Academias</a></li>
+    <li><a href="indicadores.html">Indicadores</a></li>
+    <li><a href="">Convenio de Desempeño</a></li>
+    <li><a href="comite.html">Comite Estrategico</a></li>
+    <li><a href="">Formación ER</a></li>
+    <li><a href="noticias.html">Noticias</a></li>
+    <li id="contacto"><a href="contacto.html">Contacto</a></li>
+  </nav>
+  <section class="formulario">
+<form action="contacto.php" method="post">
+<label for="nombre">Nombre:</label>
+ <input id="nombre" type="text" name="nombre" placeholder="Nombre y Apellido" required="" />
+ <label for="email">Email:</label>
+ <input id="email" type="email" name="email" placeholder="ejemplo@correo.com" required="" />
+ <label for="mensaje">Mensaje:</label>
+ <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required=""></textarea>
+ <input id="submit" type="submit" name="submit" value="Enviar" />
+</form>
+  </section>
+   <section class="iconos">
+    <ul>
+    <li><a href=""><img src="iconos/01.png"></a></li>
+    <li><a href=""><img src="iconos/02.png"></a></li>
+    <li><a href=""><img src="iconos/03.png"></a></li>
+     <li><a href=""><img src="iconos/04.png"></a></li>
+    </ul>
+  </section>
+  <div id="footer"><img src="imagenes/FOOTER.jpg"></div>
+ </body>
+</html>

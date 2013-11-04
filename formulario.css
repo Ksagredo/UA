@@ -1,0 +1,131 @@
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:1px;
+}
+.formulario {
+    display:block;
+    float: right;
+    margin-right: 23em;
+    width:510px;
+    color: #666666;
+    font-family:Arial;
+}
+form {
+    margin:0 auto;
+    width:400px;
+}
+ 
+input, textarea {
+    width:380px;
+    height:27px;
+    background:#cee2f8;
+    border:2px solid #f6f6f6;
+    padding:10px;
+    margin-top:5px;
+    font-size:10px;
+    color:#666666;
+}
+ 
+textarea {
+    height:150px;
+}
+ 
+#submit {
+    width:85px;
+    height:35px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+.iconos ul 
+{
+    
+    width: 10%;
+    list-style: none;
+    
+}
+
+.iconos img
+{
+    
+    height: 100px;
+    width: 80%;
+    margin: 0 0 1em 1em;
+}
+
+#header
+{
+height: 7em;
+padding-bottom: 3em;
+text-align: center;
+}
+
+#header img 
+{
+    height: 8.2em;
+    width: 100%;
+}
+
+nav #contacto 
+{
+    float: right;
+    margin-right: 0;
+}
+
+nav #contacto a
+{
+    background:#00acee;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+nav
+{
+    background: #003366; /*BACKGROUND DEL NAV*/
+    font-size: 0.9em;
+    margin-bottom: 2em;
+    margin-top: -2em;
+}
+
+/*SE QUITA EL LISTADO (PUNTOS)*/
+nav ul 
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li 
+{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 1em 0 3.3em; /*SEPARACIÓN ENTRE UN BOTON Y OTRO*/
+}
+
+
+nav ul li a 
+{
+    color:white;/*COLOR DE LA FUENTE*/
+    display: block;
+    font-family: Arial;
+    padding: 0.5em 0;
+    text-decoration: none;
+}
+
+#footer
+
+{
+height: 7em;
+padding-bottom: 3em;
+text-align: center;
+}
+
+#footer img 
+{
+    height: 10em;
+    width: 100%;
+}
